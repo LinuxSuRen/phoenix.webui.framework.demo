@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG4Autotest">
+	<test name="Demo">
+		<classes>
+			<class name="autotest.web.framework.demo.remote.TestNGTest" />
+		</classes>
+	</test>
+</suite>
