@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://surenpi.com http://autotest.surenpi.com/ ">
+  <suren:engine driver="chrome" remote="http://127.0.0.1:4444/wd/hub" />
+  <suren:pages>
+    <suren:page class="org.suren.autotest.test.page.BaiduHomePage"
+    	url="https://www.baidu.com/" dataSource="baidu_home_datasource">
+      <suren:field name="keyword" byId="kw"/>
+      <suren:field name="searchBut" byId="su"/>
+    </suren:page>
+  </suren:pages>
+  
+  <suren:dataSources>
+  	<suren:dataSource name="baidu_home_datasource" type="xml_data_source" resource="baidu_datasource.xml"/>
+  </suren:dataSources>
+</suren:autotest>
