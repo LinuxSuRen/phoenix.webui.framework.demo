@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Auto created by AutoTest, 2016-12-14 21:32:16-->
+<suren:dataSources xmlns:suren="http://datasource.surenpi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datasource.surenpi.com http://surenpi.com/schema/datasource/autotest.web.framework.datasource.xsd ">  
+  <dataSource pageClass="org.suren.autotest.test.page.BaiduHomePage"> 
+    <page> 
+      <field name="keyword" data=""/> 
+    </page> 
+  </dataSource>  
+  <suren:dataSource pageClass="org.suren.autotest.test.page.BaiduHomePage"> 
+    <suren:page> 
+      <suren:field name="keyword" data=""/> 
+    </suren:page> 
+  </suren:dataSource> 
+</suren:dataSources>
+<!--Auto created by AutoTest, 2016-12-14 21:32:40-->
+<!--Auto created by AutoTest, 2016-12-15 8:20:40-->
+<!--Auto created by AutoTest, 2016-12-15 8:21:11-->
+<!--Auto created by AutoTest, 16-12-15 上午8:21-->

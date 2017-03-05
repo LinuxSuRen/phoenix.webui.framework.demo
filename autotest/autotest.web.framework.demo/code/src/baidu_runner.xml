@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Auto created by AutoTest, 16-12-15 上午8:21-->
+<suren:suite xmlns:suren="http://suite.surenpi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://suite.surenpi.com http://surenpi.com/schema/suite/autotest.web.framework.suite.xsd ">
+  <suren:page class="org.suren.autotest.test.page.BaiduHomePage">
+    <suren:actions>
+      <suren:action field="keyword" name="fillValue"/>
+      <suren:action field="searchBut" name="click"/>
+    </suren:actions>
+  </suren:page>
+</suren:suite>
