@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:autotest xmlns:suren="http://surenpi.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://surenpi.com http://autotest.surenpi.com/ ">
+	<suren:engine driver="chrome" />
+	<suren:pages>
+		<suren:page class="org.suren.autotest.test.page.BaiduHomePage"
+			url="https://www.baidu.com/">
+    		<![CDATA[百度首页元素定位类]]>
+			<suren:field name="keyword" type="input" byId="kw">
+				<![CDATA[搜索关键字，要通过代码生成来生成Page类的话，必须要加上type属性]]>
+			</suren:field>
+			<suren:field name="searchBut" type="button" byId="su" />
+		</suren:page>
+	</suren:pages>
+</suren:autotest>
