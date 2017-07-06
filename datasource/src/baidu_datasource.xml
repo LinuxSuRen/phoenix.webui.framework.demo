@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suren:dataSources xmlns:suren="http://datasource.surenpi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datasource.surenpi.com http://autotest.surenpi.com/xsd/datasource ">
-  <suren:dataSource pageClass="org.suren.autotest.test.page.BaiduHomePage">
-    <suren:page>
-    	<suren:field name="keyword" data="surenpi.com"></suren:field>
-    </suren:page>
-  </suren:dataSource>
-</suren:dataSources>
