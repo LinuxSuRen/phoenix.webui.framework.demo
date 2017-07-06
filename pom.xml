@@ -14,6 +14,10 @@
   	<module>autotest.demo.datasource.xml</module>
   	<module>autotest.demo.webdriver</module>
   	<module>autotest.demo.datasource.yaml</module>
+  	<module>autotest.demo.module</module>
+  	<module>autotest.demo.report.excel</module>
+  	<module>autotest.demo.report.database</module>
+  	<module>autotest.demo.report.jira</module>
   </modules>
   <dependencies>
   	<dependency>

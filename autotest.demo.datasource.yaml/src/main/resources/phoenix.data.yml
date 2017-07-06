@@ -1,0 +1,3 @@
+org.suren.autotest.test.page.HomePageWithData:
+  userName: demo
+  password: demo

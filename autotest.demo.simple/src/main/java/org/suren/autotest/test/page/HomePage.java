@@ -19,7 +19,6 @@ import com.surenpi.autotest.webui.ui.Text;
  * @date Jul 23, 2016 4:41:16 PM
  */
 @AutoPage(url = "http://phoenix.surenpi.com",maximize = false)
-@AutoDataSource(resource = "phoenix.data.yml", type = DataSourceConstants.DS_TYPE_YAML)
 public class HomePage extends WebPage
 {
 	@AutoLocator(locator = LocatorType.BY_NAME, value = "username")
