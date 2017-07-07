@@ -5,21 +5,11 @@
     <artifactId>autotest.demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>autotest.demo.report.excel</artifactId>
+  <artifactId>autotest.demo.dynamic.yaml</artifactId>
   <dependencies>
   	<dependency>
   		<groupId>com.surenpi.autotest</groupId>
-  		<artifactId>autotest.report.excel</artifactId>
-  		<version>1.0.0-20170618</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.surenpi.autotest</groupId>
-  		<artifactId>autotest.demo.simple</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.surenpi.autotest</groupId>
-  		<artifactId>autotest.demo.module</artifactId>
+  		<artifactId>autotest.demo.datasource.yaml</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
