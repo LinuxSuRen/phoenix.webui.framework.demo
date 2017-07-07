@@ -17,37 +17,34 @@
 package org.suren.autotest.test.module;
 
 import org.suren.autotest.test.page.CommonPage;
-import org.suren.autotest.test.page.HomePage;
+import org.suren.autotest.test.page.ProjectPage;
 import org.suren.autotest.web.framework.annotation.AutoField;
 import org.suren.autotest.web.framework.annotation.AutoModule;
 
 /**
  * @author suren
- * @date 2017年7月7日 上午8:10:13
+ * @date 2017年7月7日 下午6:03:14
  */
-@AutoModule(name = "首页")
-public class HomeModule
+@AutoModule(name = "项目管理")
+public class ProjectModule
 {
 	@AutoField
-	private HomePage page;
+	private ProjectPage page;
 	@AutoField
 	private CommonPage commonPage;
 	
-	public void login()
+	public void addProject()
 	{
-        page.open();
-        page.getUserName().fillValue("demo");
-        page.getPassword().fillValue("demo");
-        page.getLoginBut().click();
-        
-        page.getToProjectListBut().click();
+		page.getAddBut().click();
         commonPage.getSkipBut().click();
+        
+		page.getDemoSelector().selectByIndex(1);
 	}
 
 	/**
 	 * @return the page
 	 */
-	public HomePage getPage()
+	public ProjectPage getPage()
 	{
 		return page;
 	}
@@ -55,7 +52,7 @@ public class HomeModule
 	/**
 	 * @param page the page to set
 	 */
-	public void setPage(HomePage page)
+	public void setPage(ProjectPage page)
 	{
 		this.page = page;
 	}

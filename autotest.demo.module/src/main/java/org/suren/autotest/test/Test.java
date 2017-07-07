@@ -3,9 +3,11 @@
 */
 package org.suren.autotest.test;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.suren.autotest.test.module.HomeModule;
+import org.suren.autotest.test.module.ProjectModule;
 import org.suren.autotest.web.framework.annotation.AutoApplication;
 import org.suren.autotest.web.framework.settings.Phoenix;
 import org.suren.autotest.web.framework.util.ThreadUtil;
@@ -23,14 +25,18 @@ public class Test
 	 * 入口函数
 	 * @param args
 	 * @throws IOException
+	 * @throws AWTException 
 	 */
-	public static void main(String[] args) throws IOException
+	public static void main(String[] args) throws IOException, AWTException
 	{
 		Phoenix phoenix = new Phoenix(Test.class);
 		phoenix.initWithData();
 		
 		HomeModule homeModule = phoenix.getModule(HomeModule.class);
 		homeModule.login();
+		
+		ProjectModule projectModule = phoenix.getModule(ProjectModule.class);
+		projectModule.addProject();
 		
 		ThreadUtil.silentSleep(3000);
 		

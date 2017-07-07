@@ -3,12 +3,10 @@
  */
 package org.suren.autotest.test.page;
 
-import org.suren.autotest.web.framework.annotation.AutoDataSource;
 import org.suren.autotest.web.framework.annotation.AutoLocator;
 import org.suren.autotest.web.framework.annotation.AutoPage;
 import org.suren.autotest.web.framework.selenium.WebPage;
 
-import com.surenpi.autotest.datasource.DataSourceConstants;
 import com.surenpi.autotest.webui.core.LocatorType;
 import com.surenpi.autotest.webui.ui.Button;
 import com.surenpi.autotest.webui.ui.Text;
@@ -18,7 +16,7 @@ import com.surenpi.autotest.webui.ui.Text;
  * @author suren
  * @date Jul 23, 2016 4:41:16 PM
  */
-@AutoPage(url = "http://phoenix.surenpi.com",maximize = false)
+@AutoPage(url = "http://localhost/phoenix", maximize = false)
 public class HomePage extends WebPage
 {
 	@AutoLocator(locator = LocatorType.BY_NAME, value = "username")
