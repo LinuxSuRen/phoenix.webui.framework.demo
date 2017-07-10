@@ -20,6 +20,7 @@ import org.suren.autotest.test.page.CommonPage;
 import org.suren.autotest.test.page.HomePage;
 import org.suren.autotest.web.framework.annotation.AutoField;
 import org.suren.autotest.web.framework.annotation.AutoModule;
+import org.suren.autotest.web.framework.util.ThreadUtil;
 
 /**
  * @author suren
@@ -39,6 +40,10 @@ public class HomeModule
         page.getUserName().fillValue("demo");
         page.getPassword().fillValue("demo");
         page.getLoginBut().click();
+
+        commonPage.getSkipBut().click();
+        page.getDemoText().fillValue("demo text");
+        ThreadUtil.silentSleep(2000);
         
         page.getToProjectListBut().click();
         commonPage.getSkipBut().click();
