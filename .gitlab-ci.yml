@@ -1,2 +1,7 @@
-before_script:
-	- which java
+stages:
+  - build
+    
+    job1:
+      stage: build
+        script:
+	    - echo 'i am build job'
