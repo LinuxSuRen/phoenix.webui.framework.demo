@@ -1,3 +1,5 @@
+image: maven
+
 stages:
   - build
     
@@ -5,3 +7,4 @@ stages:
       stage: build
         script:
 	    - echo 'i am build job'
+	        - mvn clean package
