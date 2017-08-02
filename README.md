@@ -1,18 +1,13 @@
 #autotest.web.framework.demo
 
-码云：http://git.oschina.net/surenpi/autotest.web.framework.demo
-Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
-
-博客地址http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/
+自动化测试框架PhoenixAutotest入门介绍
+http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/
 
 #备注：
 整体是一个工程，除lib以外的目录也都个子是一个Java工程
 
 #目录说明：
 <table>
-	<tr>
-	<td>lib</td><td>autotest.web.framework框架jar</td>
-	</tr>
 	<tr>
 	<td>simple</td><td>最简单的示例</td>
 	</tr>
