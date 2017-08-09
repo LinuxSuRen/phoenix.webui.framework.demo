@@ -1,8 +1,8 @@
 # autotest.web.framework.demo
 
 自动化测试框架PhoenixAutotest入门介绍  
-http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/  
-本示例为Maven工程，导入Eclipse后即可运行看到效果。
+http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/  
+本示例为Maven工程，导入Eclipse后即可运行看到效果。Maven工程导入详细教程地址http://surenpi.com/2017/08/09/autotest-demo-project-import/
 
 # 目录说明：
 <table>
