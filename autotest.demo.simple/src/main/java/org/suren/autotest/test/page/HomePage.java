@@ -18,7 +18,7 @@ import com.surenpi.autotest.webui.ui.Text;
  * @author suren
  * @date Jul 23, 2016 4:41:16 PM
  */
-@AutoPage(url = "http://localhost:2234/phoenix",
+@AutoPage(url = "http://localhost:6060/phoenix",
 	maximize = false, startPage = true)
 public class HomePage extends WebPage
 {
