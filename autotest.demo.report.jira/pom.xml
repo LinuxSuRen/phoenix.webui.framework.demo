@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.surenpi.autotest</groupId>
     <artifactId>autotest.demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1-20170815-SNAPSHOT</version>
   </parent>
   <artifactId>autotest.demo.report.jira</artifactId>
 </project>

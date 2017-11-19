@@ -5,12 +5,11 @@ package org.suren.autotest.test;
 
 import java.io.IOException;
 
+import com.surenpi.autotest.report.excel.annotation.EnableExcelReport;
+import com.surenpi.autotest.utils.ThreadUtil;
 import org.suren.autotest.test.module.HomeModule;
 import org.suren.autotest.web.framework.annotation.AutoApplication;
 import org.suren.autotest.web.framework.settings.Phoenix;
-import org.suren.autotest.web.framework.util.ThreadUtil;
-
-import com.surenpi.autotest.report.excel.annotation.EnableExcelReport;
 
 /**
  * AutoTest框架的一个简单示例</br>

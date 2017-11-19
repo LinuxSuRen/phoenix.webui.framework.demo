@@ -16,11 +16,11 @@
 
 package org.suren.autotest.test.module;
 
+import com.surenpi.autotest.utils.ThreadUtil;
 import org.suren.autotest.test.page.CommonPage;
 import org.suren.autotest.test.page.HomePage;
 import org.suren.autotest.web.framework.annotation.AutoField;
 import org.suren.autotest.web.framework.annotation.AutoModule;
-import org.suren.autotest.web.framework.util.ThreadUtil;
 
 /**
  * @author suren
