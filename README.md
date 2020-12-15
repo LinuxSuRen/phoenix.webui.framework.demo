@@ -31,6 +31,3 @@ http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/
 	<td>testng</td><td>在AutoTest框架的基础上和TestNG集成的示例</td>
 	</tr>
 </table>
-
-QQ群：52492046
-进群请关注公告，及时修改备注！
