@@ -1,5 +1,7 @@
 # autotest.web.framework.demo
 
+> 该项目不再维护，如果您对接口开发、调试、测试工具感兴趣的话，请关注我的另外一个开源项目 [api-testing](https://github.com/LinuxSuRen/api-testing)
+
 自动化测试框架PhoenixAutotest入门介绍  
 http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/  
 本示例为Maven工程，导入Eclipse后即可运行看到效果。Maven工程导入详细教程地址http://surenpi.com/2017/08/09/autotest-demo-project-import/
